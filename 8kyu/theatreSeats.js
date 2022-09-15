@@ -16,6 +16,7 @@ function seatsInTheater(nCols, nRows, col, row) {
 
 // Solution 2
 function seatsInTheater(nCols, nRows, col, row) {
+
   let colBlocked = nCols - (col - 1);
   let rowBlocked = nRows - row;
   return colBlocked * rowBlocked;
